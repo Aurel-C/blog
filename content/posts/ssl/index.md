@@ -1,9 +1,9 @@
 ---
-title: "Self-supervised Depth Estimation"
-date: 2024-04-01T14:15:35+02:00
+title: "Self-Supervised Learning"
+date: 2025-01-12T23:24:55+01:00
+draft: true
 math: true
 ShowBreadCrumbs: false
-draft: true
 ---
 
 {{< math.inline >}}
