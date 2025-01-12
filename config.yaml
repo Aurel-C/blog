@@ -1,9 +1,7 @@
-baseURL: http://example.org/
+baseURL: https://aurel-c.github.io/blog/
 languageCode: en-us
 title: Aurel's Blog
 theme: PaperMod
-
-
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -12,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainSections: ["posts", "papermod"]
 # googleAnalytics: UA-123-45
 
 minify:
