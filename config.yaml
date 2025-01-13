@@ -82,17 +82,17 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Theme PaperMod - https://github.com/Aurel-C/blog"
-  author: Theme PaperMod
+  # author: Theme PaperMod
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
@@ -168,6 +168,20 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+
+
   highlight:
     noClasses: false
     # anchorLineNos: true
