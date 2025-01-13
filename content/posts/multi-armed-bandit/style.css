@@ -1,0 +1,36 @@
+.node circle {
+fill: rgb(255, 255, 255);
+stroke: rgb(0, 0, 0);
+stroke-width: 3px;
+}
+
+.node text { font: 16px sans-serif; }
+
+.link {
+fill: none;
+stroke-linecap: round;
+}
+
+#container_bandit{
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons_bandit{
+    display: flex; 
+    justify-content: space-evenly;
+
+} 
+#buttons_bandit button, input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+#mean_reward{
+    text-align: center;
+    white-space: nowrap;
+}
+td{
+    text-align: center;
+    padding: 12.3px;
+}
