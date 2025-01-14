@@ -1,5 +1,5 @@
 var margin = { top: 0, right: 60, bottom: 0, left: 0 },
-    width = 700 - margin.left - margin.right,
+    width = 540 - margin.left - margin.right,
     height = 460 - margin.top - margin.bottom;
 
 const treemap = d3.tree().size([height, width]);

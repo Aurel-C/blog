@@ -26,11 +26,24 @@ stroke-linecap: round;
     border-radius: 5px;
     padding: 0px 5px;
 }
-#mean_reward{
+#container_bandit td{
     text-align: center;
-    white-space: nowrap;
+    padding: 8.75px!important;
 }
-td{
-    text-align: center;
-    padding: 12.3px;
+#container_bandit table{
+    display:table;
+    width:unset;
+    margin-left: auto;
+    margin-right: auto;
+}
+#full_bandit{
+    background-color: #ffffff;
+    color:#000000!important;
+    padding-left: 10px;
+}
+#full_bandit h2{
+    color:#000000!important;
+}
+#full_bandit button{
+    color:#000000!important;
 }

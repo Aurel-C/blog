@@ -1,5 +1,5 @@
-var margin = { top: 20, right: 90, bottom: 30, left: 25 },
-    width = 920 - margin.left - margin.right,
+var margin = { top: 20, right: 20, bottom: 30, left: 25 },
+    width = 720 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
    
     
@@ -10,10 +10,10 @@ var margin = { top: 20, right: 90, bottom: 30, left: 25 },
     .attr("transform",
     "translate(" + margin.left + "," + margin.top + ")");
     
-    scatter.append("circle").attr("cx",720).attr("cy",400).attr("r", 6).attr("fill", d3.interpolateRdBu(1)).attr("fill-opacity",0.5)
-    scatter.append("circle").attr("cx",720).attr("cy",430).attr("r", 6).attr("fill", d3.interpolateRdBu(-1)).attr("fill-opacity",0.5)
-    scatter.append("text").attr("x", 740).attr("y", 405).text("Exploitation").style("font-size", "15px").attr("alignment-baseline","middle")
-    scatter.append("text").attr("x", 740).attr("y", 435).text("Exploration").style("font-size", "15px").attr("alignment-baseline","middle")    
+    scatter.append("circle").attr("cx",580).attr("cy",400).attr("r", 6).attr("fill", d3.interpolateRdBu(1)).attr("fill-opacity",0.5)
+    scatter.append("circle").attr("cx",580).attr("cy",430).attr("r", 6).attr("fill", d3.interpolateRdBu(-1)).attr("fill-opacity",0.5)
+    scatter.append("text").attr("x", 600).attr("y", 405).text("Exploitation").style("font-size", "15px").attr("alignment-baseline","middle")
+    scatter.append("text").attr("x", 600).attr("y", 435).text("Exploration").style("font-size", "15px").attr("alignment-baseline","middle")    
 // Add X axis
 var x = d3.scaleLinear().range([0, width]);
 var xAxis = d3.axisBottom().scale(x);
